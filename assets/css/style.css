@@ -1,0 +1,29 @@
+form {
+    background: grey;
+    width: 20%;
+    height: 80px;
+    text-align: center;
+    color: rgb(253, 104, 104);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: black solid 3px;
+}
+
+header {
+    background: blue;
+    text-align: center;
+    color: rgb(243, 152, 152);
+    border: black solid 5px;
+}
+
+body {
+    background: url(../images/tunnel-3233082_1280.jpg) no-repeat center fixed;
+}
+
+#vg-btns {
+    color: blue;
+}
+
+#game-gifs {
+    color: rgb(243, 152, 152);
+}
