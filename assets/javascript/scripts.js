@@ -25,6 +25,8 @@ $("#submitBtn").on("click", function(event) {
 //ajax on click//
 function grabGif() {
 
+    $("#game-gifs").empty()
+
     let game = $(this).attr("data-game")
     console.log(game)
     let queryURL = "https://api.giphy.com/v1/gifs/search?limit=10&q=" + game + "&api_key=iR1jPERPw1oBVLsNHYX6W0mWSu0zfstS";
